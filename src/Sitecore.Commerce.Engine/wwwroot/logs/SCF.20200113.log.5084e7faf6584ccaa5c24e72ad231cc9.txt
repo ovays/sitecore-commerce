@@ -1,0 +1,955 @@
+00001 17:44:56 INFO Loading Global Environment using Filesystem Provider from: G:\sitecore commerce\Working\Sitecore.Commerce.Engine.SDK.4.0.102\src\Sitecore.Commerce.Engine\wwwroot\Bootstrap\
+00001 17:44:56 INFO [NodeStartup] GlobalEnvironmentFrom='Configuration: Global'
+00001 17:44:56 INFO [NodeStartup] Status='Started',GlobalEnvironmentName='GlobalEnvironment'
+00001 17:44:57 INFO Bootstrapping Application ...
+00001 17:44:58 INFO Instantiating "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Eventing.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Eventing.ConfigureSitecore"
+00001 17:44:58 INFO Configuring event defaults
+00001 17:44:58 INFO Instantiating "Pipelines.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Pipelines.ConfigureSitecore"
+00001 17:44:58 INFO Configuring pipeline defaults
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 17:44:58 INFO Instantiating "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 17:44:58 INFO Invoking ConfigureServices on "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 17:45:01 INFO Instantiating "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 17:45:01 INFO Invoking ConfigureServices on "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 17:45:02 INFO Core required DB Version [9.2.0] and DB Version [9.2.0]
+00006 17:45:02 INFO [NodeStartup] ContactId='Deployment01_5084e7faf6584ccaa5c24e72ad231cc9',Environment='GlobalEnvironment'
+00001 17:45:04 INFO [EnvironmentStartup] StartEnvironment=HabitatMinions
+00005 17:45:04 INFO [EnvironmentStartup] Environment='HabitatMinions'
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Carts.PurgeCartsMinion, Sitecore.Commerce.Plugin.Carts'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCartsMinion
+00005 17:45:04 INFO PurgeCartsMinion-Review List:Carts
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 17:45:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 17:45:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinionBoss, Sitecore.Commerce.Plugin.Orders'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinionBoss
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00012 17:45:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00013 17:45:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=ReleasedOrdersMinion
+00006 17:45:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 17:45:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.DelayedAvailability.WaitingForAvailabilityOrdersMinion, Sitecore.Commerce.Plugin.Orders.DelayedAvailability'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=WaitingForAvailabilityOrdersMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Returns.RefundRmasMinion, Sitecore.Commerce.Plugin.Returns'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=RefundRmasMinion
+00013 17:45:04 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCategoriesMinion, Sitecore.Commerce.Plugin.Catalog'
+00014 17:45:04 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCategoriesMinion
+00005 17:45:04 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCatalogsMinion, Sitecore.Commerce.Plugin.Catalog'
+00005 17:45:04 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCatalogsMinion
+00013 17:45:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00006 17:45:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00014 17:45:04 INFO PurgeCartsMinion-Completed: 0
+00001 17:45:07 WARN Overriding address(es) '"https://localhost:5001/, http://localhost:5000/"'. Binding to endpoints defined in "UseKestrel()" instead.
+00017 17:46:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetEnvironmentArtifactStoreId()  
+00017 17:46:08 INFO Route matched with "{action = \"GetEnvironmentArtifactStoreId\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)"
+00017 17:46:08 INFO Authorization was successful.
+00005 17:46:09 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00006 17:46:09 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00006 17:46:09 INFO Executing action method "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)" - Validation state: Valid
+00006 17:46:09 INFO Executed action method "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6.1499ms.
+00006 17:46:09 INFO Executing ObjectResult, writing value of type '"System.String"'.
+00005 17:46:09 INFO Executed action "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)" in 856.4554ms
+00005 17:46:09 INFO Request finished in 1606.1895ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:46:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00005 17:46:09 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:46:09 INFO Authorization was successful.
+00006 17:46:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 86.1271ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 349.7152ms
+00006 17:46:10 INFO Request finished in 432.5011ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 17:46:10 INFO Authorization was successful.
+00006 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 27.9327ms.
+00005 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 52.1882ms
+00005 17:46:10 INFO Request finished in 60.9088ms 200 application/json
+00014 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00014 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.4745ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.8232ms
+00006 17:46:10 INFO Request finished in 20.9718ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00013 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00013 17:46:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00013 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.7034ms.
+00006 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.9324ms
+00005 17:46:10 INFO Request finished in 13.781ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00015 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00015 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00015 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.4915ms.
+00006 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 11.0939ms
+00006 17:46:10 INFO Request finished in 15.2472ms 200 application/json
+00013 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00013 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00013 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.1524ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.7495ms
+00006 17:46:10 INFO Request finished in 17.3054ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00015 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00015 17:46:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00015 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 11.0592ms.
+00014 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 19.5535ms
+00005 17:46:10 INFO Request finished in 23.0042ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00006 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00006 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00006 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 5.3683ms.
+00005 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 12.6448ms
+00005 17:46:10 INFO Request finished in 16.551ms 200 application/json
+00006 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00006 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00006 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.746ms.
+00006 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.109ms
+00005 17:46:10 INFO Request finished in 13.3268ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetEnvironmentArtifactStoreId()  
+00005 17:46:10 INFO Route matched with "{action = \"GetEnvironmentArtifactStoreId\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)"
+00005 17:46:10 INFO Authorization was successful.
+00006 17:46:10 INFO [EnvironmentStartup] Environment='HabitatShops'
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)" - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 0.4392ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"System.String"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Core.ApiController.GetEnvironmentArtifactStoreId (Sitecore.Commerce.Core)" in 68.9ms
+00006 17:46:10 INFO Request finished in 71.5533ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 17:46:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4817ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.8272ms
+00006 17:46:10 INFO Request finished in 15.013ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00016 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00016 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00016 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.5329ms.
+00006 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 9.5166ms
+00006 17:46:10 INFO Request finished in 12.5347ms 200 application/json
+00006 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00006 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00006 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.041ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.5742ms
+00006 17:46:10 INFO Request finished in 14.8093ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00005 17:46:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:46:10 INFO Authorization was successful.
+00006 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.701ms.
+00006 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 10.9114ms
+00005 17:46:10 INFO Request finished in 14.2688ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 17:46:10 INFO Authorization was successful.
+00006 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00006 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.3318ms.
+00006 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.1136ms
+00005 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00006 17:46:10 INFO Request finished in 16.427ms 200 application/json
+00005 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:46:10 INFO Authorization was successful.
+00013 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.2074ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.1042ms
+00006 17:46:10 INFO Request finished in 15.3983ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 17:46:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.0842ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 12.0862ms
+00006 17:46:10 INFO Request finished in 15.0289ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00015 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00015 17:46:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00015 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.6672ms.
+00005 17:46:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.2843ms
+00005 17:46:10 INFO Request finished in 12.8922ms 200 application/json
+00015 17:46:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00015 17:46:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00015 17:46:10 INFO Authorization was successful.
+00005 17:46:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:46:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.3467ms.
+00005 17:46:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00006 17:46:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.963ms
+00006 17:46:10 INFO Request finished in 14.3022ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:50:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00033 17:50:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00005 17:50:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00033 17:50:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 17:50:04 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00005 17:50:04 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00014 17:50:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00033 17:50:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00033 17:50:04 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00030 17:55:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00033 17:55:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00014 17:55:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00014 17:55:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 17:55:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00014 17:55:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00005 17:55:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00033 17:55:04 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00029 17:55:04 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00033 17:55:04 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00037 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00037 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00037 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 77.3702ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 84.0593ms
+00005 17:56:08 INFO Request finished in 86.8127ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00014 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00014 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 6.4625ms.
+00033 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 11.9129ms
+00033 17:56:08 INFO Request finished in 15.1053ms 200 application/json
+00014 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00014 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4252ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 8.8366ms
+00005 17:56:08 INFO Request finished in 11.518ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.8424ms.
+00005 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 8.3203ms
+00014 17:56:08 INFO Request finished in 11.1594ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00030 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00030 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00030 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.3794ms.
+00033 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 9.298ms
+00033 17:56:08 INFO Request finished in 12.2919ms 200 application/json
+00030 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00030 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00030 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4774ms.
+00005 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 8.7648ms
+00014 17:56:08 INFO Request finished in 14.4659ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.0438ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.0244ms
+00005 17:56:08 INFO Request finished in 12.1762ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 17:56:08 INFO Authorization was successful.
+00014 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 3.7017ms.
+00014 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 8.9361ms
+00014 17:56:08 INFO Request finished in 12.1007ms 200 application/json
+00005 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00005 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:56:08 INFO Authorization was successful.
+00014 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.7343ms.
+00005 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.8862ms
+00014 17:56:08 INFO Request finished in 14.5499ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00005 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:56:08 INFO Authorization was successful.
+00014 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.1847ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.4111ms
+00005 17:56:08 INFO Request finished in 14.3707ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00029 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00029 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 5.4203ms.
+00033 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 12.4345ms
+00033 17:56:08 INFO Request finished in 15.6193ms 200 application/json
+00005 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00005 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 17:56:08 INFO Authorization was successful.
+00014 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.8474ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 12.2823ms
+00005 17:56:08 INFO Request finished in 17.3454ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00029 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.1143ms.
+00005 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.7051ms
+00014 17:56:08 INFO Request finished in 13.5511ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00035 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00035 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00035 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 3.8856ms.
+00033 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 9.3473ms
+00033 17:56:08 INFO Request finished in 12.329ms 200 application/json
+00030 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00030 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00030 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.7153ms.
+00005 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.7615ms
+00014 17:56:08 INFO Request finished in 13.7528ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 17:56:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.2545ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.2391ms
+00005 17:56:08 INFO Request finished in 11.9638ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 17:56:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 17:56:08 INFO Authorization was successful.
+00014 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.1763ms.
+00033 17:56:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 8.8912ms
+00033 17:56:08 INFO Request finished in 11.9284ms 200 application/json
+00033 17:56:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00033 17:56:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00033 17:56:08 INFO Authorization was successful.
+00005 17:56:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00014 17:56:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.745ms.
+00014 17:56:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 17:56:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 9.6072ms
+00005 17:56:08 INFO Request finished in 12.2906ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 18:00:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00005 18:00:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00005 18:00:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 18:00:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00030 18:00:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00035 18:00:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00030 18:00:04 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00014 18:00:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00030 18:05:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00037 18:05:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00014 18:05:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00033 18:05:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00014 18:05:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00030 18:05:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00014 18:05:04 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00030 18:05:04 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00014 18:05:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00005 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00005 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00005 18:06:08 INFO Authorization was successful.
+00014 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 79.904ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 86.3047ms
+00014 18:06:08 INFO Request finished in 89.8202ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00029 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00029 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 7.1835ms.
+00005 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 14.0413ms
+00005 18:06:08 INFO Request finished in 18.1621ms 200 application/json
+00030 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00030 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00030 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.5008ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.132ms
+00014 18:06:08 INFO Request finished in 15.3897ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00029 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.0556ms.
+00014 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 10.8042ms
+00005 18:06:08 INFO Request finished in 15.0454ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 18:06:08 INFO Authorization was successful.
+00014 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.3271ms.
+00005 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.5224ms
+00005 18:06:08 INFO Request finished in 13.7727ms 200 application/json
+00033 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00033 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00033 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.4429ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.9339ms
+00014 18:06:08 INFO Request finished in 13.7366ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.368ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.8391ms
+00014 18:06:08 INFO Request finished in 12.798ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00029 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00029 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.6903ms.
+00005 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.2644ms
+00005 18:06:08 INFO Request finished in 13.0262ms 200 application/json
+00035 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00035 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00035 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00029 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.964ms.
+00029 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 9.9532ms
+00005 18:06:08 INFO Request finished in 13.1912ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00033 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00033 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00033 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.9853ms.
+00014 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 8.4453ms
+00005 18:06:08 INFO Request finished in 11.2163ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00030 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00030 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00030 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 3.8188ms.
+00005 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 8.404ms
+00005 18:06:08 INFO Request finished in 11.2841ms 200 application/json
+00030 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00030 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00030 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.1252ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.1535ms
+00014 18:06:08 INFO Request finished in 14.331ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00033 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00033 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00033 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.1116ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 8.8921ms
+00014 18:06:08 INFO Request finished in 11.899ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00005 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00005 18:06:08 INFO Authorization was successful.
+00014 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 3.7533ms.
+00033 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 8.5836ms
+00033 18:06:08 INFO Request finished in 11.7541ms 200 application/json
+00029 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00029 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00030 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.2527ms.
+00030 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.112ms
+00005 18:06:08 INFO Request finished in 13.3983ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 18:06:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.3296ms.
+00014 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00005 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.6466ms
+00005 18:06:08 INFO Request finished in 12.8648ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00014 18:06:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00014 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00033 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 3.8433ms.
+00033 18:06:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00033 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 9.5546ms
+00033 18:06:08 INFO Request finished in 12.5714ms 200 application/json
+00014 18:06:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00014 18:06:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 18:06:08 INFO Authorization was successful.
+00005 18:06:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00005 18:06:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.3959ms.
+00005 18:06:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:06:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.127ms
+00014 18:06:08 INFO Request finished in 14.7219ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00033 18:10:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00012 18:10:04 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00005 18:10:04 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00005 18:10:04 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00037 18:10:04 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00012 18:10:04 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00004 18:10:05 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00038 18:10:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00033 18:15:05 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00003 18:15:05 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00034 18:15:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00030 18:15:05 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00013 18:15:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00029 18:15:05 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00003 18:15:05 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00023 18:15:05 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00030 18:15:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00029 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00029 18:16:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:16:08 INFO Authorization was successful.
+00023 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00030 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 91.346ms.
+00030 18:16:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00023 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 97.8012ms
+00023 18:16:08 INFO Request finished in 102.5594ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00023 18:16:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00023 18:16:08 INFO Authorization was successful.
+00030 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00029 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 132.3169ms.
+00029 18:16:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00029 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 139.9724ms
+00029 18:16:08 INFO Request finished in 144.1842ms 200 application/json
+00034 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00034 18:16:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00034 18:16:08 INFO Authorization was successful.
+00023 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00023 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.8716ms.
+00023 18:16:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 10.704ms
+00030 18:16:08 INFO Request finished in 14.6525ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00023 18:16:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00023 18:16:08 INFO Authorization was successful.
+00030 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.2835ms.
+00023 18:16:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 10.2902ms
+00030 18:16:08 INFO Request finished in 12.8912ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00023 18:16:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00023 18:16:08 INFO Authorization was successful.
+00030 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00030 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.4601ms.
+00030 18:16:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00030 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.702ms
+00030 18:16:08 INFO Request finished in 13.5865ms 200 application/json
+00023 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00023 18:16:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00023 18:16:08 INFO Authorization was successful.
+00030 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00023 18:16:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 132.8501ms.
+00023 18:16:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 141.3097ms
+00030 18:16:08 INFO Request finished in 146.1059ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 18:16:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00023 18:16:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00023 18:16:08 INFO Authorization was successful.
+00030 18:16:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 93.6235ms.
+00023 18:16:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 99.4159ms
+00030 18:16:09 INFO Request finished in 103.5969ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00011 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00011 18:16:09 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00011 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00030 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 145.3699ms.
+00030 18:16:09 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00030 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 154.0938ms
+00030 18:16:09 INFO Request finished in 158.3568ms 200 application/json
+00029 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00029 18:16:09 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00030 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 92.6611ms.
+00030 18:16:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00023 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 103.1987ms
+00023 18:16:09 INFO Request finished in 108.796ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00016 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00016 18:16:09 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00016 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 112.8774ms.
+00023 18:16:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 120.4129ms
+00030 18:16:09 INFO Request finished in 124.8367ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00029 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00029 18:16:09 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00029 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 98.4336ms.
+00023 18:16:09 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00023 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 104.9854ms
+00023 18:16:09 INFO Request finished in 109.0533ms 200 application/json
+00034 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00034 18:16:09 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00034 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00030 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 131.0462ms.
+00030 18:16:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00023 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 140.0049ms
+00023 18:16:09 INFO Request finished in 144.0992ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00030 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00030 18:16:09 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00030 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00030 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 117.0075ms.
+00030 18:16:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00023 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 130.3853ms
+00023 18:16:09 INFO Request finished in 136.0173ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00041 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00041 18:16:09 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00041 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 111.5363ms.
+00023 18:16:09 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00023 18:16:09 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 117.7464ms
+00023 18:16:09 INFO Request finished in 124.5989ms 200 application/json
+00029 18:16:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00029 18:16:09 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:16:09 INFO Authorization was successful.
+00023 18:16:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00023 18:16:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.4159ms.
+00023 18:16:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 8.8624ms
+00030 18:16:10 INFO Request finished in 11.7181ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 18:16:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00023 18:16:10 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00023 18:16:10 INFO Authorization was successful.
+00030 18:16:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00023 18:16:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.665ms.
+00023 18:16:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.1465ms
+00030 18:16:10 INFO Request finished in 13.0364ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00034 18:16:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00034 18:16:10 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00034 18:16:10 INFO Authorization was successful.
+00030 18:16:10 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00030 18:16:10 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.857ms.
+00030 18:16:10 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00030 18:16:10 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 9.7071ms
+00030 18:16:10 INFO Request finished in 13.092ms 200 application/json
+00029 18:16:10 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00029 18:16:10 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00029 18:16:10 INFO Authorization was successful.
+00023 18:16:10 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00023 18:16:10 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.7619ms.
+00023 18:16:10 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00030 18:16:10 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 9.9049ms
+00030 18:16:10 INFO Request finished in 13.4955ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 18:20:05 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00024 18:20:05 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00033 18:20:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00031 18:20:05 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00039 18:20:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00032 18:20:05 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00039 18:20:05 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00033 18:20:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00041 18:25:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00006 18:25:05 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00003 18:25:05 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00032 18:25:05 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00040 18:25:05 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00011 18:25:05 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00014 18:25:05 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00011 18:25:05 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00032 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00032 18:26:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00032 18:26:08 INFO Authorization was successful.
+00014 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 91.6165ms.
+00014 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 98.9549ms
+00032 18:26:08 INFO Request finished in 103.6118ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00011 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00011 18:26:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00011 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00032 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 5.964ms.
+00032 18:26:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 11.8689ms
+00032 18:26:08 INFO Request finished in 17.3054ms 200 application/json
+00011 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00011 18:26:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00011 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.6212ms.
+00014 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 13.8524ms
+00032 18:26:08 INFO Request finished in 20.4499ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00032 18:26:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00032 18:26:08 INFO Authorization was successful.
+00014 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.6994ms.
+00014 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 9.853ms
+00032 18:26:08 INFO Request finished in 12.9127ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00011 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00011 18:26:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00011 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 5.0535ms.
+00014 18:26:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00014 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.9683ms
+00014 18:26:08 INFO Request finished in 14.4861ms 200 application/json
+00011 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00011 18:26:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00011 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6.2812ms.
+00014 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 15.4969ms
+00032 18:26:08 INFO Request finished in 19.5436ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00041 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00041 18:26:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00041 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexMaster", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00032 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.3485ms.
+00032 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 10.7007ms
+00014 18:26:08 INFO Request finished in 14.7401ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00016 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexMaster',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00016 18:26:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00016 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00011 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.9949ms.
+00011 18:26:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00011 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 13.5858ms
+00011 18:26:08 INFO Request finished in 17.5128ms 200 application/json
+00003 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexMaster',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00003 18:26:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00003 18:26:08 INFO Authorization was successful.
+00014 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexMaster", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00032 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.5873ms.
+00032 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 14.4183ms
+00014 18:26:08 INFO Request finished in 20.8249ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00003 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='SellableItemsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00003 18:26:08 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00003 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.9473ms.
+00014 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 12.714ms
+00032 18:26:08 INFO Request finished in 17.6279ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00003 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',listName='SellableItemsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00003 18:26:08 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00003 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00032 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.6979ms.
+00032 18:26:08 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00032 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 11.7922ms
+00032 18:26:08 INFO Request finished in 15.0031ms 200 application/json
+00041 18:26:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='SellableItemsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00041 18:26:08 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00041 18:26:08 INFO Authorization was successful.
+00032 18:26:08 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["SellableItemsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SellableItem, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00032 18:26:08 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.6792ms.
+00032 18:26:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:08 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.6718ms
+00014 18:26:09 INFO Request finished in 15.0524ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00041 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CategoriesDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00041 18:26:09 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00041 18:26:09 INFO Authorization was successful.
+00032 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00032 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.3306ms.
+00032 18:26:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 10.4262ms
+00014 18:26:09 INFO Request finished in 13.8474ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00011 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',listName='CategoriesIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00011 18:26:09 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00011 18:26:09 INFO Authorization was successful.
+00032 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00011 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.1604ms.
+00011 18:26:09 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00011 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 11.8563ms
+00011 18:26:09 INFO Request finished in 14.8903ms 200 application/json
+00003 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CategoriesIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00003 18:26:09 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00003 18:26:09 INFO Authorization was successful.
+00014 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CategoriesIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Category, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00032 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.948ms.
+00032 18:26:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 11.8735ms
+00014 18:26:09 INFO Request finished in 15.6576ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00014 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetListWithoutTotal(id='CatalogsDeletedIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog',skip=0,take=100)?$expand=Items($expand=Components)  
+00014 18:26:09 INFO Route matched with "{action = \"GetListWithoutTotal\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)"
+00014 18:26:09 INFO Authorization was successful.
+00032 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsDeletedIndexWeb", "Sitecore.Commerce.Plugin.Catalog.SitecoreItemTombstone, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00014 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 3.5621ms.
+00014 18:26:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00032 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetListWithoutTotal (Sitecore.Commerce.Plugin.ManagedLists)" in 11.3757ms
+00032 18:26:09 INFO Request finished in 14.6141ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetCatalogItemsAllLanguages(type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',listName='CatalogsIncrementalIndexWeb',skip=0,take=100)?$expand=Components($expand=ChildComponents($expand=ChildComponents))  
+00032 18:26:09 INFO Route matched with "{action = \"GetCatalogItemsAllLanguages\", controller = \"CatalogItemBaseParameters\"}". Executing action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)"
+00032 18:26:09 INFO Authorization was successful.
+00014 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "100"]) - Validation state: Valid
+00032 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)", returned result "Microsoft.AspNetCore.Mvc.ContentResult" in 4.2296ms.
+00032 18:26:09 INFO Executing ContentResult with HTTP Response ContentType of "application/json"
+00032 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.Catalog.CatalogItemBaseParametersController.GetCatalogItemsAllLanguages (Sitecore.Commerce.Plugin.Catalog)" in 10.7185ms
+00032 18:26:09 INFO Request finished in 13.8712ms 200 application/json
+00011 18:26:09 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='CatalogsIncrementalIndexWeb',type='Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog',skip=0,take=1)  
+00011 18:26:09 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00011 18:26:09 INFO Authorization was successful.
+00032 18:26:09 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["CatalogsIncrementalIndexWeb", "Sitecore.Commerce.Plugin.Catalog.Catalog, Sitecore.Commerce.Plugin.Catalog", "0", "1"]) - Validation state: Valid
+00032 18:26:09 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.8049ms.
+00032 18:26:09 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00014 18:26:09 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 13.2934ms
+00014 18:26:09 INFO Request finished in 17.8806ms 200 application/json;odata.metadata=minimal; charset=utf-8

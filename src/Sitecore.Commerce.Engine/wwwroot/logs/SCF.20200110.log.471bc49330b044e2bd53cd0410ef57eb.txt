@@ -1,0 +1,229 @@
+00001 00:17:37 INFO Loading Global Environment using Filesystem Provider from: G:\sitecore commerce\Working\Sitecore.Commerce.Engine.SDK.4.0.102\src\Sitecore.Commerce.Engine\wwwroot\Bootstrap\
+00001 00:17:37 INFO [NodeStartup] GlobalEnvironmentFrom='Configuration: Global'
+00001 00:17:37 INFO [NodeStartup] Status='Started',GlobalEnvironmentName='GlobalEnvironment'
+00001 00:17:38 INFO Bootstrapping Application ...
+00001 00:17:38 INFO Instantiating "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Eventing.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Eventing.ConfigureSitecore"
+00001 00:17:38 INFO Configuring event defaults
+00001 00:17:38 INFO Instantiating "Pipelines.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Pipelines.ConfigureSitecore"
+00001 00:17:38 INFO Configuring pipeline defaults
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 00:17:38 INFO Instantiating "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 00:17:38 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 00:17:39 INFO Instantiating "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 00:17:39 INFO Invoking ConfigureServices on "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 00:17:40 INFO Core required DB Version [9.2.0] and DB Version [9.2.0]
+00006 00:17:40 INFO [NodeStartup] ContactId='Deployment01_471bc49330b044e2bd53cd0410ef57eb',Environment='GlobalEnvironment'
+00001 00:17:42 INFO [EnvironmentStartup] StartEnvironment=HabitatMinions
+00005 00:17:43 INFO [EnvironmentStartup] Environment='HabitatMinions'
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Carts.PurgeCartsMinion, Sitecore.Commerce.Plugin.Carts'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCartsMinion
+00005 00:17:43 INFO PurgeCartsMinion-Review List:Carts
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 00:17:43 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 00:17:43 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinionBoss, Sitecore.Commerce.Plugin.Orders'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinionBoss
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=ReleasedOrdersMinion
+00005 00:17:43 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.DelayedAvailability.WaitingForAvailabilityOrdersMinion, Sitecore.Commerce.Plugin.Orders.DelayedAvailability'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=WaitingForAvailabilityOrdersMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Returns.RefundRmasMinion, Sitecore.Commerce.Plugin.Returns'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=RefundRmasMinion
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCategoriesMinion, Sitecore.Commerce.Plugin.Catalog'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCategoriesMinion
+00024 00:17:43 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00016 00:17:43 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00018 00:17:43 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00016 00:17:43 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 00:17:43 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCatalogsMinion, Sitecore.Commerce.Plugin.Catalog'
+00005 00:17:43 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCatalogsMinion
+00024 00:17:43 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00016 00:17:43 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00019 00:17:43 INFO PurgeCartsMinion-Completed: 0
+00015 00:17:43 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00001 00:17:46 WARN Overriding address(es) '"https://localhost:5001/, http://localhost:5000/"'. Binding to endpoints defined in "UseKestrel()" instead.
+00013 00:18:53 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetNavigationView()  
+00015 00:18:53 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetNavigationView()  
+00013 00:18:53 INFO Policy execution successful.
+00015 00:18:53 INFO Policy execution successful.
+00013 00:18:53 INFO Request finished in 182.1136ms 204 
+00015 00:18:53 INFO Request finished in 182.8667ms 204 
+00005 00:18:54 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetNavigationView() application/json 
+00005 00:18:54 INFO Policy execution successful.
+00005 00:18:54 INFO Route matched with "{action = \"GetNavigationView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00005 00:18:55 INFO Authorization failed.
+00005 00:18:55 INFO Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+00005 00:18:55 INFO Executing ChallengeResult with authentication schemes ([]).
+00005 00:18:55 INFO AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+00005 00:18:55 INFO AuthenticationScheme: "Bearer" was challenged.
+00005 00:18:55 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" in 149.4508ms
+00005 00:18:55 INFO Request finished in 1095.2917ms 401 
+00005 00:18:55 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetNavigationView() application/json 
+00005 00:18:55 INFO Policy execution successful.
+00005 00:18:55 INFO Route matched with "{action = \"GetNavigationView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00005 00:18:55 INFO Authorization failed.
+00005 00:18:55 INFO Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+00005 00:18:55 INFO Executing ChallengeResult with authentication schemes ([]).
+00005 00:18:55 INFO AuthenticationScheme: "BearerIdentityServerAuthenticationJwt" was challenged.
+00005 00:18:55 INFO AuthenticationScheme: "Bearer" was challenged.
+00005 00:18:55 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" in 7.3452ms
+00005 00:18:55 INFO Request finished in 15.7631ms 401 
+00018 00:19:05 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetNavigationView()  
+00018 00:19:06 INFO Policy execution successful.
+00026 00:19:06 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetEnvironmentsView()  
+00027 00:19:06 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetNavigationView() application/json 
+00027 00:19:06 INFO Policy execution successful.
+00018 00:19:06 INFO Request finished in 468.0106ms 204 
+00026 00:19:06 INFO Policy execution successful.
+00018 00:19:06 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetLanguagesView()  
+00026 00:19:06 INFO Request finished in 454.8607ms 204 
+00018 00:19:06 INFO Policy execution successful.
+00019 00:19:06 INFO Request starting HTTP/1.1 OPTIONS https://localhost:5000/api/GetNavigationView()  
+00019 00:19:06 INFO Policy execution successful.
+00019 00:19:06 INFO Request finished in 41.4673ms 204 
+00018 00:19:06 INFO Request finished in 186.2367ms 204 
+00015 00:19:06 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetEnvironmentsView() application/json 
+00015 00:19:06 INFO Policy execution successful.
+00020 00:19:06 INFO Successfully validated the token.
+00005 00:19:06 INFO Successfully validated the token.
+00020 00:19:06 INFO Route matched with "{action = \"GetNavigationView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00005 00:19:06 INFO Route matched with "{action = \"GetEnvironmentsView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetEnvironmentsView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00005 00:19:06 INFO Authorization was successful.
+00020 00:19:06 INFO Authorization was successful.
+00015 00:19:06 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetLanguagesView() application/json 
+00015 00:19:06 INFO Policy execution successful.
+00015 00:19:07 INFO Successfully validated the token.
+00015 00:19:07 INFO Route matched with "{action = \"GetLanguagesView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetLanguagesView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00015 00:19:07 INFO Authorization was successful.
+00016 00:19:07 INFO Executing action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetEnvironmentsView (Sitecore.Commerce.Plugin.BusinessUsers)" - Validation state: Valid
+00042 00:19:07 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00005 00:19:07 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00015 00:19:07 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00005 00:19:07 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00040 00:19:07 INFO Executing action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetLanguagesView (Sitecore.Commerce.Plugin.BusinessUsers)" - Validation state: Valid
+00040 00:19:07 INFO Executing action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" - Validation state: Valid
+00015 00:19:07 INFO Executed action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetEnvironmentsView (Sitecore.Commerce.Plugin.BusinessUsers)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 896.2096ms.
+00015 00:19:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00037 00:19:08 INFO Executed action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 629.9641ms.
+00037 00:19:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00034 00:19:08 INFO Executed action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetLanguagesView (Sitecore.Commerce.Plugin.BusinessUsers)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 699.5956ms.
+00034 00:19:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00040 00:19:08 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetLanguagesView (Sitecore.Commerce.Plugin.BusinessUsers)" in 1545.7508ms
+00016 00:19:08 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetEnvironmentsView (Sitecore.Commerce.Plugin.BusinessUsers)" in 1565.7618ms
+00015 00:19:08 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" in 1571.5548ms
+00016 00:19:08 INFO Request finished in 1734.9077ms 200 application/json; charset=utf-8
+00040 00:19:08 INFO Request finished in 1594.7661ms 200 application/json; charset=utf-8
+00015 00:19:08 INFO Request finished in 2514.1173ms 200 application/json; charset=utf-8
+00016 00:19:08 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetNavigationView() application/json 
+00016 00:19:08 INFO Policy execution successful.
+00016 00:19:08 INFO Successfully validated the token.
+00016 00:19:08 INFO Route matched with "{action = \"GetNavigationView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)"
+00016 00:19:08 INFO Authorization was successful.
+00015 00:19:08 INFO Executing action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" - Validation state: Valid
+00005 00:19:08 INFO Executed action method "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 169.6443ms.
+00005 00:19:08 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00015 00:19:08 INFO Executed action "Sitecore.Commerce.Plugin.BusinessUsers.ApiController.GetNavigationView (Sitecore.Commerce.Plugin.BusinessUsers)" in 179.84ms
+00015 00:19:08 INFO Request finished in 224.1098ms 200 application/json; charset=utf-8

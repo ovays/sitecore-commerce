@@ -1,0 +1,2 @@
+00001 10:45:39 INFO Loading Global Environment using Filesystem Provider from: G:\sitecore commerce\Working\Sitecore.Commerce.Engine.SDK.4.0.102\src\Sitecore.Commerce.Engine\wwwroot\Bootstrap\
+00001 10:45:40 INFO [NodeStartup] GlobalEnvironmentFrom='Configuration: Global'

@@ -1,0 +1,509 @@
+00001 16:56:42 INFO Loading Global Environment using Filesystem Provider from: G:\sitecore commerce\Working\Sitecore.Commerce.Engine.SDK.4.0.102\src\Sitecore.Commerce.Engine\wwwroot\Bootstrap\
+00001 16:56:42 INFO [NodeStartup] GlobalEnvironmentFrom='Configuration: Global'
+00001 16:56:42 INFO [NodeStartup] Status='Started',GlobalEnvironmentName='GlobalEnvironment'
+00001 16:56:43 INFO Bootstrapping Application ...
+00001 16:56:43 INFO Instantiating "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Framework.Caching.Memory.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Eventing.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Eventing.ConfigureSitecore"
+00001 16:56:43 INFO Configuring event defaults
+00001 16:56:43 INFO Instantiating "Pipelines.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Pipelines.ConfigureSitecore"
+00001 16:56:43 INFO Configuring pipeline defaults
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Core.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.ManagedLists.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Framework.Rules.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Rules.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Shops.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Views.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.BusinessUsers.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Composer.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.EntityVersions.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Media.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Pricing.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Carts.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Promotions.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.SQL.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Workflow.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Catalog.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Availability.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Fulfillment.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Customers.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Entitlements.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.DigitalItems.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Payments.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.GiftCards.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Returns.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Management.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Content.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Inventory.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Backorderable.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Preorderable.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 16:56:43 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Orders.DelayedAvailability.ConfigureSitecore"
+00001 16:56:43 INFO Instantiating "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.FaultInjection.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Journaling.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Azure.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Search.Solr.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Coupons.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Sitecore.Commerce.Plugin.Tax.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Plugin.Sample.AdventureWorks.ConfigureSitecore"
+00001 16:56:44 INFO Instantiating "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 16:56:44 INFO Invoking ConfigureServices on "Plugin.Sample.Habitat.ConfigureSitecore"
+00001 16:56:46 INFO Instantiating "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 16:56:46 INFO Invoking ConfigureServices on "Plugin.Sample.Payments.Braintree.ConfigureSitecore"
+00001 16:56:47 INFO Core required DB Version [9.2.0] and DB Version [9.2.0]
+00005 16:56:47 INFO [NodeStartup] ContactId='Deployment01_cccc14f8a0c44ab69c0e3c7f0e1ca665',Environment='GlobalEnvironment'
+00001 16:56:49 INFO [EnvironmentStartup] StartEnvironment=HabitatMinions
+00005 16:56:49 INFO [EnvironmentStartup] Environment='HabitatMinions'
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Carts.PurgeCartsMinion, Sitecore.Commerce.Plugin.Carts'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCartsMinion
+00005 16:56:49 INFO PurgeCartsMinion-Review List:Carts
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 16:56:49 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.DeleteIndexDocumentsMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=DeleteIndexDocumentsMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.FullIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=FullIndexMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=IncrementalIndexMinion
+00005 16:56:49 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Search.IncrementalIndexMinion, Sitecore.Commerce.Plugin.Search' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinionBoss, Sitecore.Commerce.Plugin.Orders'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinionBoss
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.PendingOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PendingOrdersMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=ReleasedOrdersMinion
+00005 16:56:49 WARN CtxMsg.Warning.MinionProcessingSameEntities: Text=Minion 'Sitecore.Commerce.Plugin.Orders.ReleasedOrdersMinion, Sitecore.Commerce.Plugin.Orders' didn't run. There is a minion processing the same type of entities in the 'HabitatMinions' environment running.
+00006 16:56:49 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00019 16:56:49 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Orders.DelayedAvailability.WaitingForAvailabilityOrdersMinion, Sitecore.Commerce.Plugin.Orders.DelayedAvailability'
+00020 16:56:49 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=WaitingForAvailabilityOrdersMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Returns.RefundRmasMinion, Sitecore.Commerce.Plugin.Returns'
+00016 16:56:49 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=RefundRmasMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCategoriesMinion, Sitecore.Commerce.Plugin.Catalog'
+00019 16:56:49 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCategoriesMinion
+00005 16:56:49 INFO [MinionStartup] Environment='HabitatMinions', Minion-'Sitecore.Commerce.Plugin.Catalog.PurgeCatalogsMinion, Sitecore.Commerce.Plugin.Catalog'
+00005 16:56:49 INFO [MinionInitialize] Environment=HabitatMinions, Minion=PurgeCatalogsMinion
+00016 16:56:49 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00019 16:56:49 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00006 16:56:49 INFO PurgeCartsMinion-Completed: 0
+00001 16:56:52 WARN Overriding address(es) '"https://localhost:5001/, http://localhost:5000/"'. Binding to endpoints defined in "UseKestrel()" instead.
+00020 16:56:53 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Shops('CommerceEngineDefaultStorefront')  
+00005 16:56:53 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Shops('CommerceEngineDefaultStorefront')  
+00016 16:56:53 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Shops('CommerceEngineDefaultStorefront')  
+00020 16:56:54 INFO Route matched with "{action = \"Get\", controller = \"Shops\"}". Executing action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)"
+00016 16:56:54 INFO Route matched with "{action = \"Get\", controller = \"Shops\"}". Executing action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)"
+00005 16:56:54 INFO Route matched with "{action = \"Get\", controller = \"Shops\"}". Executing action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)"
+00005 16:56:54 INFO Authorization was successful.
+00020 16:56:54 INFO Authorization was successful.
+00016 16:56:54 INFO Authorization was successful.
+00006 16:56:54 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00019 16:56:54 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00023 16:56:54 INFO [EnvironmentStartup] Environment='HabitatAuthoring'
+00020 16:56:54 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00013 16:56:54 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00023 16:56:54 INFO Creating Redis cache store '"Commerce-Redis-Store"'
+00020 16:56:55 INFO Executing action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" with arguments (["CommerceEngineDefaultStorefront"]) - Validation state: Valid
+00020 16:56:55 INFO Executed action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 8.7383ms.
+00020 16:56:55 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Shops.Shop"'.
+00023 16:56:55 INFO Executing action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" with arguments (["CommerceEngineDefaultStorefront"]) - Validation state: Valid
+00020 16:56:55 INFO Executed action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 2.5209ms.
+00005 16:56:55 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Shops.Shop"'.
+00023 16:56:55 INFO Executing action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" with arguments (["CommerceEngineDefaultStorefront"]) - Validation state: Valid
+00005 16:56:55 INFO Executed action method "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 1.2571ms.
+00005 16:56:55 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Shops.Shop"'.
+00016 16:56:55 INFO Executed action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" in 1636.472ms
+00019 16:56:55 INFO Executed action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" in 1636.4763ms
+00006 16:56:55 INFO Executed action "Sitecore.Commerce.Plugin.Shops.ShopsController.Get (Sitecore.Commerce.Plugin.Shops)" in 1636.1921ms
+00019 16:56:56 INFO Request finished in 2896.3381ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00006 16:56:56 INFO Request finished in 2896.9669ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00016 16:56:56 INFO Request finished in 2896.6298ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 16:57:37 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 74
+00023 16:57:37 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00023 16:57:37 INFO Authorization was successful.
+00031 16:57:37 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00006 16:57:38 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 808.2725ms.
+00006 16:57:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00005 16:57:38 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 1063.7979ms
+00005 16:57:38 INFO Request finished in 1098.6159ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00023 16:57:39 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/DoAction application/json;odata.metadata=minimal 6947
+00023 16:57:39 INFO Route matched with "{action = \"DoAction\", controller = \"Commands\"}". Executing action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)"
+00023 16:57:39 INFO Authorization was successful.
+00005 16:57:39 INFO Executing action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00031 16:58:18 ERROR Pipeline completed with error
+System.Exception: Error processing block: CustomizeCustomerRegistrationBlock ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Exception: Cannot load provider. Base type is 'Sitecore.Security.Authentication.AuthenticationProvider'
+   at Sitecore.Configuration.ProviderHelper`2.ReadProviders()
+   at Sitecore.Configuration.ProviderHelper`2.get_Provider()
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.GetUserName(String rawUserName)
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.Login(String userName, String password, Boolean persistent)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.CreateNewSalesforceAccount(CommercePipelineExecutionContext context, FindEntitiesInListCommand findEntitiesInListCommand, Customer customerInfo)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.Run(Customer customer, CommercePipelineExecutionContext context)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+   --- End of inner exception stack trace ---
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Sitecore.Framework.Pipelines.BasePipelineBlockRunner.<Run>d__3`1.MoveNext()
+00005 16:58:19 INFO Executed action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 40219.778ms.
+00005 16:58:19 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.Commands.DoActionCommand"'.
+00006 16:58:19 INFO Executed action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" in 40246.8062ms
+00006 16:58:19 INFO Request finished in 40259.0942ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00006 16:58:19 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 118
+00006 16:58:19 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00006 16:58:19 INFO Authorization was successful.
+00005 16:58:19 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00006 16:58:19 INFO Views.block.GetEntityView-Entity 'Entity-Customer-Storefront\owais_ahmed2212@hotmail.com' was not found.
+00005 16:58:20 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 258.9857ms.
+00005 16:58:20 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00006 16:58:20 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 266.3941ms
+00006 16:58:20 INFO Request finished in 270.3985ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00005 16:58:52 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 74
+00005 16:58:52 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00005 16:58:52 INFO Authorization was successful.
+00023 16:58:52 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00005 16:58:52 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 34.6896ms.
+00005 16:58:52 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00023 16:58:52 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 49.4662ms
+00023 16:58:52 INFO Request finished in 54.9765ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00028 16:58:52 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/DoAction application/json;odata.metadata=minimal 6945
+00028 16:58:52 INFO Route matched with "{action = \"DoAction\", controller = \"Commands\"}". Executing action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)"
+00028 16:58:52 INFO Authorization was successful.
+00005 16:58:52 INFO Executing action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00005 16:59:49 ERROR Pipeline completed with error
+System.Exception: Error processing block: CustomizeCustomerRegistrationBlock ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Exception: Cannot load provider. Base type is 'Sitecore.Security.Authentication.AuthenticationProvider'
+   at Sitecore.Configuration.ProviderHelper`2.ReadProviders()
+   at Sitecore.Configuration.ProviderHelper`2.get_Provider()
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.GetUserName(String rawUserName)
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.Login(String userName, String password, Boolean persistent)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.CreateNewSalesforceAccount(CommercePipelineExecutionContext context, FindEntitiesInListCommand findEntitiesInListCommand, Customer customerInfo)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.Run(Customer customer, CommercePipelineExecutionContext context)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+   --- End of inner exception stack trace ---
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Sitecore.Framework.Pipelines.BasePipelineBlockRunner.<Run>d__3`1.MoveNext()
+00005 16:59:49 INFO Executed action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 57058.4222ms.
+00005 16:59:49 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.Commands.DoActionCommand"'.
+00028 16:59:49 INFO Executed action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" in 57087.5821ms
+00028 16:59:49 INFO Request finished in 57097.3011ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00035 16:59:49 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00035 16:59:49 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00035 16:59:49 INFO Authorization was successful.
+00005 16:59:49 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00005 16:59:49 INFO Views.block.GetEntityView-Entity 'Entity-Customer-Storefront\owais_ahmed12@hotmail.comm' was not found.
+00005 16:59:49 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 44.84ms.
+00005 16:59:49 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00028 16:59:49 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 51.8849ms
+00028 16:59:49 INFO Request finished in 56.4701ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00038 17:01:49 INFO PendingOrdersMinionBoss-Reviewing List:PendingOrders|Count:0|WorkerMinions:2
+00038 17:01:49 INFO ReleasedOrdersMinion-Reviewing List:ReleasedOrders|Count:0|Environment:HabitatMinions
+00023 17:01:49 INFO PendingOrdersMinion-Reviewing List:PendingOrders.1|Count:0|Environment:HabitatMinions
+00047 17:01:49 INFO WaitingForAvailabilityOrdersMinion-Reviewing List:WaitingForAvailabilityOrders|Count:0
+00047 17:01:49 INFO PendingOrdersMinion-Reviewing List:PendingOrders.2|Count:0|Environment:HabitatMinions
+00023 17:01:49 INFO PurgeCategoriesMinion-Reviewing List:PurgeCategories|Count:0
+00038 17:01:49 INFO PurgeCatalogsMinion-Reviewing List:PurgeCatalogs|Count:0
+00023 17:01:49 INFO RefundRmasMinion-Reviewing List:RefundPendingRmas|Count:0
+00051 17:02:35 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 74
+00051 17:02:35 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00051 17:02:35 INFO Authorization was successful.
+00054 17:02:35 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00054 17:02:35 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 30.1921ms.
+00054 17:02:35 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:02:36 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 41.8222ms
+00053 17:02:36 INFO Request finished in 44.4186ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00054 17:02:36 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/DoAction application/json;odata.metadata=minimal 6945
+00054 17:02:36 INFO Route matched with "{action = \"DoAction\", controller = \"Commands\"}". Executing action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)"
+00054 17:02:36 INFO Authorization was successful.
+00053 17:02:36 INFO Executing action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00053 17:02:43 ERROR Pipeline completed with error
+System.Exception: Error processing block: CustomizeCustomerRegistrationBlock ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Exception: Cannot load provider. Base type is 'Sitecore.Security.Authentication.AuthenticationProvider'
+   at Sitecore.Configuration.ProviderHelper`2.ReadProviders()
+   at Sitecore.Configuration.ProviderHelper`2.get_Provider()
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.GetUserName(String rawUserName)
+   at Sitecore.Security.Authentication.DefaultAuthenticationManager.Login(String userName, String password, Boolean persistent)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.CreateNewSalesforceAccount(CommercePipelineExecutionContext context, FindEntitiesInListCommand findEntitiesInListCommand, Customer customerInfo)
+   at Sitecore.Commerce.Plugin.Habitat.Pipelines.Blocks.CustomizeCustomerRegistrationBlock.Run(Customer customer, CommercePipelineExecutionContext context)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+   --- End of inner exception stack trace ---
+   at Sitecore.Framework.Pipelines.ReflectionPipelineBlockRunner.<InvokeBlock>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Sitecore.Framework.Pipelines.BasePipelineBlockRunner.<Run>d__3`1.MoveNext()
+00053 17:02:43 INFO Executed action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 7508.2202ms.
+00053 17:02:43 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.Commands.DoActionCommand"'.
+00054 17:02:43 INFO Executed action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" in 7515.4904ms
+00054 17:02:43 INFO Request finished in 7518.9345ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00049 17:02:43 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00049 17:02:43 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00049 17:02:43 INFO Authorization was successful.
+00054 17:02:43 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront"]) - Validation state: Valid
+00053 17:02:43 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 24.275ms.
+00053 17:02:43 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:02:43 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 139.8266ms
+00054 17:02:43 INFO Request finished in 150.0901ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00055 17:02:54 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00055 17:02:54 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00055 17:02:54 INFO Authorization was successful.
+00054 17:02:54 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront"]) - Validation state: Valid
+00050 17:02:54 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 6.4893ms.
+00053 17:02:54 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:02:54 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 16.297ms
+00054 17:02:54 INFO Request finished in 20.2091ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 17:03:01 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00032 17:03:01 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00032 17:03:01 INFO Authorization was successful.
+00054 17:03:01 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront"]) - Validation state: Valid
+00053 17:03:01 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 31.8286ms.
+00053 17:03:01 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:03:01 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 41.1088ms
+00054 17:03:01 INFO Request finished in 45.8676ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00053 17:03:26 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 74
+00053 17:03:26 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00053 17:03:26 INFO Authorization was successful.
+00049 17:03:26 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00054 17:03:26 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 56.5558ms.
+00054 17:03:26 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:03:26 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 67.4242ms
+00053 17:03:26 INFO Request finished in 72.5502ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00051 17:03:26 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/DoAction application/json;odata.metadata=minimal 6945
+00051 17:03:26 INFO Route matched with "{action = \"DoAction\", controller = \"Commands\"}". Executing action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)"
+00051 17:03:26 INFO Authorization was successful.
+00054 17:03:26 INFO Executing action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00049 17:03:37 INFO SQL:block:persistentity.Customer: EntityId=Entity-Customer-7bf312ef704b41c8a55e480ef9cde483
+00011 17:03:37 INFO SQL:block:persistentity.EntityIndex: EntityId=Customer-ByID-Storefront\owais_ahmed12@hotmail.comm
+00049 17:03:37 INFO Executed action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 11010.41ms.
+00049 17:03:37 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.Commands.DoActionCommand"'.
+00054 17:03:37 INFO Executed action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" in 11023.0972ms
+00054 17:03:37 INFO Request finished in 11027.8299ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00055 17:03:37 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00055 17:03:37 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00055 17:03:37 INFO Authorization was successful.
+00054 17:03:37 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default462bd8e3-a941-4f0f-9c8a-271738278ebcStorefront"]) - Validation state: Valid
+00054 17:03:37 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 5.3687ms.
+00054 17:03:37 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00053 17:03:37 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 12.9544ms
+00053 17:03:37 INFO Request finished in 17.1417ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 17:03:37 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00032 17:03:37 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00032 17:03:37 INFO Authorization was successful.
+00054 17:03:37 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00053 17:03:37 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00053 17:03:37 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 68.5716ms.
+00053 17:03:37 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00054 17:03:37 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 77.987ms
+00054 17:03:37 INFO Request finished in 81.4305ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00049 17:03:37 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00049 17:03:37 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00049 17:03:37 INFO Authorization was successful.
+00054 17:03:37 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront"]) - Validation state: Valid
+00054 17:03:37 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 179.6429ms.
+00054 17:03:37 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00053 17:03:37 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 187.4065ms
+00053 17:03:37 INFO Request finished in 191.8052ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00055 17:03:38 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00055 17:03:38 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00055 17:03:38 INFO Authorization was successful.
+00054 17:03:38 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00053 17:03:38 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00054 17:03:38 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 73.5437ms.
+00054 17:03:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:03:38 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 83.6256ms
+00053 17:03:38 INFO Request finished in 87.6733ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00061 17:03:38 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00061 17:03:38 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00061 17:03:38 INFO Authorization was successful.
+00055 17:03:38 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00060 17:03:38 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00055 17:03:38 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00055 17:03:38 INFO Authorization was successful.
+00053 17:03:38 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00054 17:03:38 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00054 17:03:38 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00054 17:03:38 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 80.5801ms.
+00054 17:03:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:03:38 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 93.1876ms
+00053 17:03:38 INFO Request finished in 97.195ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00054 17:03:38 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 91.7978ms.
+00054 17:03:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:03:38 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 103.0479ms
+00053 17:03:38 INFO Request finished in 106.8753ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00055 17:03:38 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/GetList(id='Orders-ByCustomer-Entity-Customer-7bf312ef704b41c8a55e480ef9cde483',type='Sitecore.Commerce.Plugin.Orders.Order, Sitecore.Commerce.Plugin.Orders',skip=0,take=10)?$expand=Items($expand=Components)  
+00049 17:03:38 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 110
+00049 17:03:38 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00049 17:03:38 INFO Authorization was successful.
+00054 17:03:38 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00049 17:03:38 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00055 17:03:38 INFO Route matched with "{action = \"GetList\", controller = \"ManagedLists\"}". Executing action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)"
+00055 17:03:38 INFO Authorization was successful.
+00054 17:03:38 INFO Executing action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" with arguments (["Orders-ByCustomer-Entity-Customer-7bf312ef704b41c8a55e480ef9cde483", "Sitecore.Commerce.Plugin.Orders.Order, Sitecore.Commerce.Plugin.Orders", "0", "10"]) - Validation state: Valid
+00049 17:03:38 INFO Executed action method "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 11.8051ms.
+00049 17:03:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.ManagedLists.ManagedList"'.
+00054 17:03:38 INFO Executed action "Sitecore.Commerce.Plugin.ManagedLists.ManagedListsController.GetList (Sitecore.Commerce.Plugin.ManagedLists)" in 22.353ms
+00054 17:03:38 INFO Request finished in 65.2452ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00054 17:03:38 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 147.8519ms.
+00054 17:03:38 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:03:38 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 157.5485ms
+00053 17:03:38 INFO Request finished in 161.537ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00059 17:03:47 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00059 17:03:47 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00059 17:03:47 INFO Authorization was successful.
+00054 17:03:47 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront"]) - Validation state: Valid
+00053 17:03:47 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.6863ms.
+00053 17:03:47 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:03:47 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 10.8393ms
+00054 17:03:47 INFO Request finished in 14.6426ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00049 17:04:00 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00049 17:04:00 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00049 17:04:00 INFO Authorization was successful.
+00054 17:04:00 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront"]) - Validation state: Valid
+00051 17:04:00 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 25.166ms.
+00051 17:04:00 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:04:00 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 36.9212ms
+00054 17:04:00 INFO Request finished in 42.358ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00049 17:04:11 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00049 17:04:11 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00049 17:04:11 INFO Authorization was successful.
+00054 17:04:11 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["Default089d0913-6fcc-4c24-a737-3a99c971e544Storefront"]) - Validation state: Valid
+00053 17:04:11 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 31.1347ms.
+00053 17:04:11 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:04:11 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 38.4062ms
+00054 17:04:11 INFO Request finished in 44.2784ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00053 17:04:11 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00053 17:04:11 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00053 17:04:11 INFO Authorization was successful.
+00054 17:04:11 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00049 17:04:11 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00053 17:04:11 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 138.7298ms.
+00053 17:04:11 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00054 17:04:11 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 147.4907ms
+00054 17:04:11 INFO Request finished in 151.7134ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00055 17:04:11 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00055 17:04:11 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00055 17:04:11 INFO Authorization was successful.
+00054 17:04:11 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront"]) - Validation state: Valid
+00053 17:04:11 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 17.0335ms.
+00053 17:04:11 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00054 17:04:11 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 23.9627ms
+00054 17:04:11 INFO Request finished in 26.9679ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00054 17:04:12 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00054 17:04:12 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00054 17:04:12 INFO Authorization was successful.
+00060 17:04:12 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00053 17:04:12 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00046 17:04:12 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 68.0781ms.
+00046 17:04:12 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00053 17:04:12 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 78.4067ms
+00053 17:04:12 INFO Request finished in 97.871ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00044 17:04:12 INFO Request starting HTTP/1.1 GET https://localhost:5000/api/Carts('DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront')?$expand=Lines($expand=CartLineComponents,CartSubLineComponents($expand=CartLineComponents)),Components  
+00044 17:04:12 INFO Route matched with "{action = \"Get\", controller = \"Carts\"}". Executing action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)"
+00044 17:04:12 INFO Authorization was successful.
+00053 17:04:12 INFO Executing action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" with arguments (["DefaultEntity-Customer-7bf312ef704b41c8a55e480ef9cde483Storefront"]) - Validation state: Valid
+00032 17:04:12 INFO Executed action method "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 4.5812ms.
+00032 17:04:12 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.Plugin.Carts.Cart"'.
+00053 17:04:12 INFO Executed action "Sitecore.Commerce.Plugin.Carts.CartsController.Get (Sitecore.Commerce.Plugin.Carts)" in 11.0774ms
+00053 17:04:12 INFO Request finished in 13.8593ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00053 17:04:16 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00053 17:04:16 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00053 17:04:16 INFO Authorization was successful.
+00032 17:04:16 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00032 17:04:16 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00053 17:04:16 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 48.6773ms.
+00053 17:04:16 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00032 17:04:17 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 58.7705ms
+00032 17:04:17 INFO Request finished in 62.8466ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 17:04:28 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 117
+00032 17:04:28 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00032 17:04:28 INFO Authorization was successful.
+00054 17:04:28 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00049 17:04:28 INFO Relationship Policy for type 'Sitecore.Commerce.Plugin.Customers.Customer, Sitecore.Commerce.Plugin.Customers' was not found.
+00049 17:04:28 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 163.9954ms.
+00049 17:04:28 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00054 17:04:28 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 175.9411ms
+00054 17:04:28 INFO Request finished in 180.2352ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00054 17:04:28 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/GetEntityView application/json;odata.metadata=minimal 123
+00054 17:04:28 INFO Route matched with "{action = \"GetEntityView\", controller = \"Api\"}". Executing action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)"
+00054 17:04:28 INFO Authorization was successful.
+00053 17:04:28 INFO Executing action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00053 17:04:29 INFO Executed action method "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 50.2428ms.
+00053 17:04:29 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.EntityView"'.
+00054 17:04:29 INFO Executed action "Sitecore.Commerce.Plugin.Views.ApiController.GetEntityView (Sitecore.Commerce.Plugin.Views)" in 60.5744ms
+00054 17:04:29 INFO Request finished in 64.7501ms 200 application/json;odata.metadata=minimal; charset=utf-8
+00032 17:04:29 INFO Request starting HTTP/1.1 POST https://localhost:5000/api/DoAction application/json;odata.metadata=minimal 7396
+00032 17:04:29 INFO Route matched with "{action = \"DoAction\", controller = \"Commands\"}". Executing action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)"
+00032 17:04:29 INFO Authorization was successful.
+00054 17:04:29 INFO Executing action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" with arguments (["System.Web.Http.OData.ODataActionParameters"]) - Validation state: Valid
+00054 17:04:29 INFO SQL:block:persistentity.Customer: EntityId=Entity-Customer-7bf312ef704b41c8a55e480ef9cde483
+00011 17:04:29 INFO Executed action method "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)", returned result "Microsoft.AspNetCore.Mvc.ObjectResult" in 150.827ms.
+00011 17:04:29 INFO Executing ObjectResult, writing value of type '"Sitecore.Commerce.EntityViews.Commands.DoActionCommand"'.
+00054 17:04:29 INFO Executed action "Sitecore.Commerce.Plugin.Views.CommandsController.DoAction (Sitecore.Commerce.Plugin.Views)" in 161.6412ms
+00054 17:04:29 INFO Request finished in 165.5146ms 200 application/json;odata.metadata=minimal; charset=utf-8
